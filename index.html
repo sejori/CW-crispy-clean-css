@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crispy Clean</title>
+
+  <link rel="stylesheet" href="/css/variables.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/nav.css">
+</head>
+<body>
+  <nav class="container">
+    <a class="logo" href="#">
+      <span class="underline-red">Crispy</span>&nbsp;
+      <span class="underline-blue">Clean</span>&nbsp;
+      <span class="underline-green">CSS</span>
+    </a>
+    <ul class="menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#FAQs">FAQs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="mobile-hamburger-wrapper">
+      <div class="mobile-hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="hero"></section>
+
+    <section id="testimonials"></section>
+  
+    <section id="FAQ"></section>
+  
+    <section id="subscribe"></section>
+  </main>
+
+  <footer></footer>
+
+  <script>
+    document.querySelector(".mobile-hamburger").addEventListener("click", (e) => {
+      e.target.classList.toggle("open");
+      document.querySelector(".menu").classList.toggle("open");
+    });
+  </script>
+</body>
+</html>

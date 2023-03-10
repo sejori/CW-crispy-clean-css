@@ -1,0 +1,53 @@
+:root {
+  /* COLOURS */
+  --red: #F49AC1;
+  --green: #77DD77;
+  --blue: #6FB1FC;
+  --white: #FFFFFF;
+  --black: #2B2B2B;
+
+  /* LAYOUT DIMENSIONS */
+  --nav-height: 100px;
+
+  /* FONT SIZES */
+  --font-xlarge: 2rem; 
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-green {
+  color: var(--green);
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-green {
+  background-color: var(--green);
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+.underline-red {
+  text-decoration: underline;
+  text-decoration-color: var(--red);
+}
+
+.underline-green {
+  text-decoration: underline;
+  text-decoration-color: var(--green);
+}
+
+.underline-blue {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+}
