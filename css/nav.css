@@ -47,8 +47,9 @@ nav {
 
 @media (max-width: 1000px) {
   .nav-inner-wrapper {
-    grid-column: col-start 2 / span 10;
+    grid-column: col-start 1 / span 12;
     justify-content: space-between;
+    padding: 0 20px;
   }
 
   .mobile-hamburger-wrapper {

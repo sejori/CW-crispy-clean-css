@@ -17,7 +17,6 @@ h1 {
 .container {
   display: grid;
   grid-template-columns: auto repeat(12, [col-start] 80px) auto;
-  gap: 3px;
   justify-content: center;
 }
 

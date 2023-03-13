@@ -1,10 +1,15 @@
 .hero-wrapper {
-  grid-column: col-start 2 / span 11;
+  grid-column: col-start 2 / span 10;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: 100px auto;
   flex-wrap: wrap-reverse;
+}
+
+.hero-text {
+  width: 50%;
+  min-width: 50%;
 }
 
 .hero-button {
@@ -24,6 +29,6 @@
 }
 
 .hero-image {
-  width: 500px;
-  max-width: 100%;
+  width: 50%;
+  min-width: 300px;
 }
