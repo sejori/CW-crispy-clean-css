@@ -3,14 +3,16 @@
   --red: #F49AC1;
   --green: #77DD77;
   --blue: #6FB1FC;
+  --yellow: #f7e75c;
   --white: #FFFFFF;
   --black: #2B2B2B;
 
   /* LAYOUT DIMENSIONS */
-  --nav-height: 100px;
+  --nav-height: 120px;
 
   /* FONT SIZES */
   --font-xlarge: 2rem; 
+  --font-large: 1.6rem; 
 }
 
 .text-red {

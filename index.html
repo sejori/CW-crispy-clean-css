@@ -4,36 +4,49 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Crispy Clean</title>
+  <title>Crispy Clean CSS</title>
 
   <link rel="stylesheet" href="/css/variables.css">
   <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/hero.css">
 </head>
 <body>
   <nav class="container">
-    <a class="logo" href="#">
-      <span class="underline-red">Crispy</span>&nbsp;
-      <span class="underline-blue">Clean</span>&nbsp;
-      <span class="underline-green">CSS</span>
-    </a>
-    <ul class="menu">
+    <div class="nav-inner-wrapper">
+      <a class="nav-logo" href="#">
+        <span class="underline-red">Crispy</span>&nbsp;
+        <span class="underline-blue">Clean</span>&nbsp;
+        <span class="underline-green">CSS</span>
+      </a>
+      <div class="mobile-hamburger-wrapper">
+        <div class="mobile-hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+    </div>
+    
+    <ul class="nav-menu">
       <li><a href="#home">Home</a></li>
       <li><a href="#reviews">Reviews</a></li>
       <li><a href="#FAQs">FAQs</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
-    <div class="mobile-hamburger-wrapper">
-      <div class="mobile-hamburger">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-    </div>
   </nav>
 
   <main>
-    <section id="hero"></section>
+    <section id="hero" class="container">
+      <div class="hero-wrapper">
+        <div class="hero-text">
+          <h1>The best donut sponge.</h1>
+          <p>Totally not a rip off. £999.</p>
+          <button class="hero-button">Get Clean</button>
+        </div>
+        <img class="hero-image" src="/assets/hero_image.svg" alt="hero-image">
+      </div>
+    </section>
 
     <section id="testimonials"></section>
   
@@ -47,7 +60,7 @@
   <script>
     document.querySelector(".mobile-hamburger").addEventListener("click", (e) => {
       e.target.classList.toggle("open");
-      document.querySelector(".menu").classList.toggle("open");
+      document.querySelector(".nav-menu").classList.toggle("open");
     });
   </script>
 </body>
