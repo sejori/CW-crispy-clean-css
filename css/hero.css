@@ -1,7 +1,7 @@
 .hero-wrapper {
   grid-column: col-start 2 / span 10;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 100px auto;
   flex-wrap: wrap-reverse;
@@ -9,7 +9,12 @@
 
 .hero-text {
   width: 50%;
-  min-width: 50%;
+  min-width: 220px;
+}
+
+.hero-image {
+  width: 50%;
+  min-width: 220px;
 }
 
 .hero-button {
@@ -26,9 +31,4 @@
   transform: scale(1.2);
   transition: transform 0.3s ease-in-out;
   text-decoration: underline;
-}
-
-.hero-image {
-  width: 50%;
-  min-width: 300px;
 }
