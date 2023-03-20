@@ -10,34 +10,37 @@
   <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/nav.css">
   <link rel="stylesheet" href="/css/hero.css">
+  <link rel="stylesheet" href="/css/reviews.css">
 </head>
 <body>
-  <nav class="container">
-    <div class="nav-inner-wrapper">
-      <a class="nav-logo" href="#">
-        <span class="underline-red">Crispy</span>&nbsp;
-        <span class="underline-blue">Clean</span>&nbsp;
-        <span class="underline-green">CSS</span>
-      </a>
-      <div class="mobile-hamburger-wrapper">
-        <div class="mobile-hamburger">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
+  <nav>
+    <div class="container grid-12-col">
+      <div class="nav-inner-wrapper">
+        <a class="nav-logo" href="#">
+          <span class="underline-red">Crispy</span>&nbsp;
+          <span class="underline-blue">Clean</span>&nbsp;
+          <span class="underline-green">CSS</span>
+        </a>
+        <div class="mobile-hamburger-wrapper">
+          <div class="mobile-hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
         </div>
       </div>
+      
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#FAQs">FAQs</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-    
-    <ul class="nav-menu">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#reviews">Reviews</a></li>
-      <li><a href="#FAQs">FAQs</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
   </nav>
 
   <main>
-    <section id="hero" class="container">
+    <section id="hero" class="container grid-12-col">
       <div class="hero-wrapper">
         <div class="hero-text">
           <h1>The best donut sponge.</h1>
@@ -49,7 +52,33 @@
     </section>
 
     <section id="reviews" class="container">
-      
+      <h2>Reviews</h2>
+      <ul class="grid-auto">
+        <li class="card">
+          <p class="card-text">Sponge changed my life.</p>
+          <p class="card-caption">Patrick - Crispy Creb</p>
+        </li>
+        <li class="card">
+          <p class="card-text">Healed a bite on my arm.</p>
+          <p class="card-caption">Ellie - Boston QZ</p>
+        </li>
+        <li class="card">
+          <p class="card-text">I'll sell you 12 for the price of 2.</p>
+          <p class="card-caption">Aunt Sullie - TV</p>
+        </li>
+        <li class="card">
+          <p class="card-text">5/7 would buy again.</p>
+          <p class="card-caption">Gran - Living Room</p>
+        </li>
+        <li class="card">
+          <p class="card-text">This sponge is fantastic!</p>
+          <p class="card-caption">The Human Torch - Mars</p>
+        </li>
+        <li class="card">
+          <p class="card-text">Kept the aliens at bay.</p>
+          <p class="card-caption">Lee - A Quiet Place</p>
+        </li>
+      </ul>
     </section>
   
     <section id="FAQ"></section>

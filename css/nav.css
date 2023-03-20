@@ -1,6 +1,6 @@
 nav {
+  z-index: 2;
   position: relative;
-  z-index: 100;
   height: var(--nav-height);
   color: var(--black);
   background-color: var(--white);
@@ -8,10 +8,9 @@ nav {
 }
 
 .nav-inner-wrapper {
-  grid-column: span 7;
+  grid-column: span 6;
   display: flex;
   align-items: center;
-  justify-content: center;
   margin: 0;
   background-color: var(--white);
 }
@@ -42,12 +41,12 @@ nav {
 .nav-menu li a {
   color: inherit;
   text-decoration: none;
-  font-size: 24px;
+  font-size: var(--font-large);
 }
 
 @media (max-width: 1000px) {
   .nav-inner-wrapper {
-    grid-column: col-start 1 / span 12;
+    grid-column: span 12;
     justify-content: space-between;
     padding: 0 20px;
   }

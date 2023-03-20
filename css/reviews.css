@@ -1,0 +1,26 @@
+#reviews ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  border: 1px solid var(--red);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  font-size: var(--font-medium);
+  margin: var(--font-medium);
+}
+
+.card-caption {
+  background-color: var(--red);
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  padding: var(--font-medium);
+  margin-top: auto;
+  margin-bottom: 0;
+}
