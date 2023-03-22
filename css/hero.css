@@ -25,9 +25,3 @@
   border-radius: 5px;
   margin: 20px auto;
 }
-
-.hero-button:hover {
-  transform: scale(1.1);
-  transition: transform 0.1s ease-in-out;
-  text-decoration: underline;
-}

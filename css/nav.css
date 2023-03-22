@@ -27,6 +27,19 @@ nav {
   text-decoration: none;
 }
 
+.nav-logo span {
+  text-decoration: underline;
+}
+.nav-logo span:nth-child(1) {
+  text-decoration-color: var(--red);
+}
+.nav-logo span:nth-child(2) {
+  text-decoration-color: var(--blue);
+}
+.nav-logo span:nth-child(3) {
+  text-decoration-color: var(--green);
+}
+
 .nav-menu {
   grid-column: col-start 7 / span 6;
   display: flex;
@@ -47,6 +60,10 @@ nav {
   color: inherit;
   text-decoration: none;
   font-size: var(--font-small);
+}
+.nav-menu li a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
 }
 
 @media (max-width: 1000px) {

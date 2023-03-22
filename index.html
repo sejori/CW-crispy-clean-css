@@ -5,20 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Crispy Clean CSS</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
   <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/nav.css">
   <link rel="stylesheet" href="/css/hero.css">
   <link rel="stylesheet" href="/css/reviews.css">
   <link rel="stylesheet" href="/css/questions.css">
+  <link rel="stylesheet" href="/css/contact.css">
 </head>
 <body>
   <nav>
     <div class="container grid-12-col">
       <div class="nav-inner-wrapper">
         <a class="nav-logo" href="#">
-          <span class="underline-red">Crispy</span>&nbsp;
-          <span class="underline-blue">Clean</span>&nbsp;
-          <span class="underline-green">CSS</span>
+          <span>Crispy</span>&nbsp;
+          <span>Clean</span>&nbsp;
+          <span>CSS</span>
         </a>
         <div class="mobile-hamburger-wrapper">
           <div class="mobile-hamburger">
@@ -44,7 +47,7 @@
         <div class="hero-text">
           <h1>The best donut sponge.</h1>
           <p>Totally not a rip off. $999.</p>
-          <button class="hero-button">Get Clean</button>
+          <button class="hero-button enlarge">Get Clean</button>
         </div>
         <img class="hero-image" src="/assets/hero_image.svg" alt="hero-image">
       </div>
@@ -103,10 +106,29 @@
       </details>
     </section>
   
-    <section id="contact"></section>
+    <section id="contact" class="container">
+      <form>
+        <h2>Submit an enquiry:</h2>
+        <label>
+          Name:
+          <input type="text">
+        </label>
+        <label>
+          Email:
+          <input type="email">
+        </label>
+        <label>Enquiry:
+          <textarea rows="5" cols="33"></textarea>
+        </label>
+        <input type="submit" class="enlarge">
+      </form>
+    </section>
   </main>
 
-  <footer></footer>
+  <footer>
+    <p>&copy; 2023 Crispy Clean Ltd. All rights reserved.</p>
+    <p>Just kidding - none of this is real.</p>
+  </footer>
 
   <script>
     document.querySelector(".mobile-hamburger").addEventListener("click", (e) => {
