@@ -10,11 +10,11 @@
 
 #questions details > summary { 
   cursor: pointer;
-  list-style-type: '🧽';
+  list-style-type: '👉 🧽';
 }
 
 #questions details[open] > summary {
-  list-style-type: '🧼';
+  list-style-type: '👇 🧼';
 }
 
 #questions details > summary > h3 {
