@@ -22,6 +22,15 @@ html, body {
   color: var(--black);
 }
 
+@media (prefers-color-scheme: dark) {
+  html, body {
+    margin: 0;
+    width: 100%; height: 100%;
+    background-color: var(--black);
+    color: var(--white);
+  }
+}
+
 html * {
   box-sizing: border-box;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif

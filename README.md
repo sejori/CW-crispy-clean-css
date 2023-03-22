@@ -17,7 +17,7 @@ The web page is made up of 6 sections from top to bottom:
 - Hero (showcase) section
 - Client testimonials
 - FAQs
-- Email subscription form
+- Email contact form
 - Footer
 
 ### Objectives
