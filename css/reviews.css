@@ -8,19 +8,24 @@
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  transition: transform 0.1s ease-in-out;
+}
+
+.card:hover {
+  transform: rotate(8deg) scale(1.05);
 }
 
 .card-text {
-  font-size: var(--font-medium);
-  margin: var(--font-medium);
+  margin: var(--font-small);
 }
 
 .card-caption {
   background-color: var(--red);
   color: white;
+  font-size: var(--font-xsmall);
   font-weight: bold;
   font-style: italic;
-  padding: var(--font-medium);
+  padding: var(--font-small);
+  margin: 0;
   margin-top: auto;
-  margin-bottom: 0;
 }

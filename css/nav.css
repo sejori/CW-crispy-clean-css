@@ -1,3 +1,7 @@
+:root {
+  --nav-height: 100px;
+}
+
 nav {
   z-index: 2;
   position: relative;
@@ -12,12 +16,13 @@ nav {
   display: flex;
   align-items: center;
   margin: 0;
+  padding: 20px;
   background-color: var(--white);
 }
 
 .nav-logo {
   color: var(--black);
-  font-size: 42px;
+  font-size: var(--font-large);
   font-weight: bold;
   text-decoration: none;
 }
@@ -25,10 +30,10 @@ nav {
 .nav-menu {
   grid-column: col-start 7 / span 6;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 20px;
 }
 
 .nav-menu li {
@@ -41,10 +46,20 @@ nav {
 .nav-menu li a {
   color: inherit;
   text-decoration: none;
-  font-size: var(--font-large);
+  font-size: var(--font-small);
 }
 
 @media (max-width: 1000px) {
+  body {
+    padding-top: var(--nav-height);
+  }
+
+  nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
   .nav-inner-wrapper {
     grid-column: span 12;
     justify-content: space-between;
@@ -63,11 +78,11 @@ nav {
   }
 
   .nav-menu {
-    position: fixed;
+    position: absolute;
     z-index: -1;
     width: 100%;
     height: calc(100vh - var(--nav-height));
-    bottom: 100%;
+    bottom: 0;
     transition: bottom 0.3s ease-in-out;
     flex-direction: column;
     align-items: center;
@@ -76,7 +91,7 @@ nav {
   }
 
   .nav-menu.open {
-    bottom: 0;
+    bottom: calc(-100vh + 100%);
   }
   
   .mobile-hamburger .bar {

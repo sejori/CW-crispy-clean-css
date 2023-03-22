@@ -1,23 +1,22 @@
 .hero-wrapper {
-  grid-column: col-start 2 / span 10;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px auto;
   flex-wrap: wrap-reverse;
 }
 
 .hero-text {
-  width: 50%;
-  min-width: 220px;
+  flex: 2;
+  min-width: 300px;
 }
 
 .hero-image {
-  width: 50%;
-  min-width: 220px;
+  flex: 3;
+  min-width: 300px;
 }
 
 .hero-button {
+  cursor: pointer;
   background-color: var(--green);
   color: var(--white);
   font-size: var(--font-large);
@@ -28,7 +27,7 @@
 }
 
 .hero-button:hover {
-  transform: scale(1.2);
-  transition: transform 0.3s ease-in-out;
+  transform: scale(1.1);
+  transition: transform 0.1s ease-in-out;
   text-decoration: underline;
 }
