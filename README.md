@@ -1,10 +1,14 @@
 # Crispy Clean CSS
 
+## Background
+
 It’s time to put your CSS fingers to the test with a real, modern UI!
 
 Before you start coding, complete this quick [tutorial on flexbox](https://flexboxfroggy.com/).
 
 Then check out this excellent jumpstart on [common layouts using grids](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout) from MDN.
+
+## Your task
 
 Now we're going to use Flexbox and Grid, along with many other nifty CSS features, to make a crispy clean web interface for the imaginary cleaning business Crispy Clean Ltd. It's got to be eye-catching, professional, responsive and most importantly, crispy clean.
 
@@ -26,7 +30,7 @@ The web page is made up of 6 sections from top to bottom:
   - with labels and correct input types
 - Footer
 
-### Objectives
+## Objectives
 
 To complete this exercise make sure you achieve the following objectives:
 
