@@ -14,10 +14,16 @@ The image below shows the design you will be recreating. Content is contrained w
 
 The web page is made up of 6 sections from top to bottom:
 - Navigation Bar
-- Hero (showcase) section
+  - links on desktop, hamburger menu on mobile
+  - links animate into view when toggled on mobile
+- Hero section
+  - text left and image right on desktop, image top and text below on mobile
 - Client testimonials
+  - cards animated to wobble in opposite directions on hover
 - FAQs
+  - expandle accordian with custom list icons (hint: is there an element for that?)
 - Email contact form
+  - with labels and correct input types
 - Footer
 
 ### Objectives
@@ -25,11 +31,11 @@ The web page is made up of 6 sections from top to bottom:
 To complete this exercise make sure you achieve the following objectives:
 
 - Recreate the design spec using vanilla CSS, not a CSS framework.
-- Recreate the desktop layout using CSS `grid` display property.
-- Enhance the layout using CSS `@media` queries and `flex` to make it responsive.
-- Recreate the responsive page sections and correctly position them within the layout.
-- Make your CSS modular and DRY (i.e. use CSS variables and imports).
-- Make your UX smooth and nice to interact with by using CSS animations.
+- Build the desktop layout using CSS `grid` and `flex` display properties.
+- Enhance the layout with `@media` queries to make it responsive.
+- Re-`position` the menu on mobile and animate the hamburger.
+- Make your CSS modular and DRY (i.e. use CSS variables).
+- Use correct HTML elements in page sections for web accessbility.
 
 ## Extra credits
 
