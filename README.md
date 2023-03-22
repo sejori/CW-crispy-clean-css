@@ -10,7 +10,7 @@ Now we're going to use Flexbox and Grid, along with many other nifty CSS feature
 
 The image below shows the design you will be recreating. Content is contrained within containers and the main content in the page is arranged in a typical 12-column grid. On mobile the grid is replaced by a flex column, the nav links become hidden by a hamburger menu and some of the page sections wrap in order to flow nicely vertically.
 
-![screenshot]()
+![demo_gif](/assets/crispy_clean_css_demo.gif)
 
 The web page is made up of 6 sections from top to bottom:
 - Navigation Bar

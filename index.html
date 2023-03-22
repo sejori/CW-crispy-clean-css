@@ -131,10 +131,18 @@
   </footer>
 
   <script>
-    document.querySelector(".mobile-hamburger").addEventListener("click", (e) => {
+    const mobileHamburger = document.querySelector(".mobile-hamburger")
+    const navMenu = document.querySelector(".nav-menu")
+    const navLinks = document.querySelectorAll("nav li a")
+
+    mobileHamburger.addEventListener("click", (e) => {
       e.target.classList.toggle("open");
-      document.querySelector(".nav-menu").classList.toggle("open");
+      navMenu.classList.toggle("open");
     });
+    navLinks.forEach(navLink => navLink.addEventListener("click", (e) => {
+      mobileHamburger.classList.toggle("open");
+      navMenu.classList.toggle("open");
+    }));
   </script>
 </body>
 </html>
