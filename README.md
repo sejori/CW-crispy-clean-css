@@ -36,16 +36,15 @@ To complete this exercise make sure you achieve the following objectives:
 
 - Recreate the design spec using vanilla CSS, not a CSS framework.
 - Build the desktop layout using CSS `grid` and `flex` display properties.
-- Enhance the layout with `@media` queries to make it responsive.
-- Re-`position` the menu on mobile and animate the hamburger.
+- Enhance the layout with `@media` queries that re-`position` the menu on mobile and animate the hamburger.
 - Make your CSS modular and DRY (i.e. use CSS variables).
 - Use correct HTML elements in page sections for web accessbility.
 
 ## Extra credits
 
 - Experiment with a CSS framework such as [Tailwind](https://tailwindcss.com/docs/installation/play-cdn).
-- Add a "contact" button to the menu that opens a modal containing a styled contact form.
-- Implement a dark mode toggle in the menu.
+- Move the contact form to a modal that opens when clicking Contact in menu.
+- Implement a dark mode media query that adjusts CSS accordingly.
 - Add a notifications widget that displays toasts which can be triggered from JS.
-- Replace the hero (showcase) SVG image with CSS shapes.
+- Replace the hero SVG image with CSS shapes (hint: CSS `clip-path`).
 - Replace the Hero section image with an embedded mp4 video.
